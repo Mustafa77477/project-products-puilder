@@ -29,7 +29,7 @@ const ProductCard = ({ product }: IProps) => {
       <p className="mb-4 text-gray-600">
         {Txtslice(description, 100)}
       </p>
-
+        
       {/* ألوان المنتج المتاحة */}
       <div className="flex items-center my-4 space-x-2">
         <span className="w-5 h-5 bg-indigo-600 rounded-full cursor-pointer" />
@@ -48,7 +48,7 @@ const ProductCard = ({ product }: IProps) => {
       </div>
 
       {/* أزرار التحكم */}
-      <div className="flex items-center justify-between mt-5 space-x-2">
+      <div className="flex items-center justify-between mt-5 space-x-2 ">
         <Button
           className="bg-indigo-700 hover:bg-indigo-800"
           width="w-full"
